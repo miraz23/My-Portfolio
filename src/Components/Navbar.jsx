@@ -23,7 +23,7 @@ const Navbar = () => {
                 <li><Link className='hover:text-[#f3f3f3]' activeClass='active' to='contact' smooth={true} duration={1000}>Contact</Link></li>
             </ul>
 
-            <div className='md:hidden z-20 text-2xl ml-auto' onClick={handleNav}>
+            <div className='md:hidden z-20 text-3xl ml-5 mr-auto' onClick={handleNav}>
                 {!navView ? <FaBars /> : <FaTimes />}
             </div>
             
@@ -33,11 +33,12 @@ const Navbar = () => {
                 <li className='py-6 text-3xl font-light'><Link onClick={handleNav} activeClass='active' to='home' smooth={true} duration={1000}>Home</Link></li>
                 <li className='py-6 text-3xl font-light'><Link onClick={handleNav} activeClass='active' to='about' smooth={true} duration={1000}>About</Link></li>
                 <li className='py-6 text-3xl font-light'><Link onClick={handleNav} activeClass='active' to='skills' smooth={true} duration={1000}>Skills</Link></li>
+                <li className='py-6 text-3xl font-light'><Link onClick={handleNav} activeClass='active' to='skills' smooth={true} duration={1000}>Profiles</Link></li>
                 <li className='py-6 text-3xl font-light'><Link onClick={handleNav} activeClass='active' to='work' smooth={true} duration={1000}>Projects</Link></li>
                 <li className='py-6 text-3xl font-light'><Link onClick={handleNav} activeClass='active' to='contact' smooth={true} duration={1000}>Contact</Link></li>
             </ul>
 
-            <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+            <div className='hidden md:flex fixed flex-col top-[35%] left-0'>
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#171515]'>
                         <a href="https://github.com/miraz23" rel='noreferrer' target='_blank' className='flex justify-between items-center w-full text-gray-300'>
