@@ -12,7 +12,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-center items-center px-4 bg-[#0a192f] text-gray-300 z-10 font-sans'>
+        <div className='fixed w-full h-[80px] px-20 flex justify-center items-center z-10 font-sans bg-[#0a192f]'>
 
             <ul className='hidden md:flex'>
                 <li><Link className='hover:text-[#f3f3f3]' activeClass='active' to='home' smooth={true} duration={1000}>Home</Link></li>
@@ -23,7 +23,7 @@ const Navbar = () => {
                 <li><Link className='hover:text-[#f3f3f3]' activeClass='active' to='contact' smooth={true} duration={1000}>Contact</Link></li>
             </ul>
 
-            <div className='md:hidden z-20 text-3xl ml-5 mr-auto' onClick={handleNav}>
+            <div className='md:hidden z-20 text-3xl mr-auto' onClick={handleNav}>
                 {!navView ? <FaBars /> : <FaTimes />}
             </div>
             

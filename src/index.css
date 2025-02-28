@@ -4,6 +4,8 @@
 @layer base {
   body {
     @apply font-[sans-serif];
+    @apply bg-[#0a192f];
+    @apply text-gray-300
   }
 
   li {
