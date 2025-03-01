@@ -8,12 +8,12 @@ const About = () => {
     }, []);
 
     return (
-        <div name="about" className='h-screen mx-20 font-sans'>
-            <div className='lg:text-center py-20'>
+        <div name="about" className='mx-20 py-20 font-sans'>
+            <div className='lg:text-center pb-20'>
                 <p className='text-4xl font-bold inline border-b-8 border-[#C23B22]'>About</p>
             </div>
 
-            <div className='flex flex-col lg:flex-row justify-center items-center lg:gap-16'>
+            <div className='flex flex-col lg:flex-row justify-center items-center lg:gap-16  max-w-[1080px] mx-auto'>
                 <div className='lg:w-1/3 lg:text-right text-2xl lg:text-4xl font-bold py-7 lg:py-0 order-2 lg:order-1' data-aos='fade-up' data-aos-duration='1000'>
                     <p>Passionate about solving<span className='text-[#C23B22]'> complex problems</span> and building scalable<span className='text-[#C23B22]'> backend systems</span>.</p>
                 </div>

@@ -11,7 +11,7 @@ import DjangoLogo from '../asset/django.png';
 import DrfLogo from '../asset/drf.png';
 import JavaScript from '../asset/javascript.png';
 import ReactLogo from '../asset/react.png';
-import NodeJsLogo from '../asset/Node.png';
+import NodeJsLogo from '../asset/node.png';
 import PostgresqlLogo from '../asset/postgresql.png';
 import MysqlLogo from '../asset/mysql.png';
 import MssqlLogo from '../asset/mssql.png';
@@ -24,8 +24,8 @@ const Skills = () => {
     }, [])
 
     return (
-        <div name='skills' className='h-screen mx-20 font-sans'>
-            <div className='flex flex-col justify-center'>
+        <div name='skills' className='mx-20 font-sans'>
+            <div className='flex flex-col justify-center max-w-[1080px] mx-auto'>
                 <div className='py-20'>
                     <p className='text-4xl font-bold inline border-b-4 border-[#C23B22]'>Skills</p>
                 </div>
