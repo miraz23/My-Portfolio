@@ -12,13 +12,13 @@ const Navbar = () => {
     }
 
     return (
-        <div className='fixed w-full h-[80px] px-20 flex justify-center items-center z-10 font-sans bg-[#0a192f]'>
+        <div className='fixed w-full h-[80px] px-10 md:px-20 flex justify-center items-center z-10 font-sans bg-[#0a192f]'>
 
             <ul className='hidden md:flex'>
                 <li><Link className='hover:text-[#f3f3f3]' activeClass='active' to='home' smooth={true} duration={1000}>Home</Link></li>
                 <li><Link className='hover:text-[#f3f3f3]' activeClass='active' to='about' smooth={true} duration={1000}>About</Link></li>
                 <li><Link className='hover:text-[#f3f3f3]' activeClass='active' to='skills' smooth={true} duration={1000}>Skills</Link></li>
-                <li><Link className='hover:text-[#f3f3f3]' activeClass='active' to='skills' smooth={true} duration={1000}>Profiles</Link></li>
+                <li><Link className='hover:text-[#f3f3f3]' activeClass='active' to='profiles' smooth={true} duration={1000}>Profiles</Link></li>
                 <li><Link className='hover:text-[#f3f3f3]' activeClass='active' to='work' smooth={true} duration={1000}>Projects</Link></li>
                 <li><Link className='hover:text-[#f3f3f3]' activeClass='active' to='contact' smooth={true} duration={1000}>Contact</Link></li>
             </ul>

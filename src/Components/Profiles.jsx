@@ -12,10 +12,10 @@ const Skills = () => {
     }, [])
 
     return (
-        <div name='skills' className='mx-20 font-sans'>
+        <div name='profiles' className='mx-10 md:mx-20 font-sans'>
             <div className='flex flex-col justify-center items-center max-w-[1080px] mx-auto'>
-                <div className='py-20'>
-                    <p className='text-4xl font-bold inline border-b-8 border-[#C23B22]'>Profiles</p>
+                <div className='py-10 mt-25'>
+                    <p className='text-4xl font-bold inline border-b-4 border-[#C23B22]'>Profiles</p>
                 </div>
 
                 <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center mx-auto'>

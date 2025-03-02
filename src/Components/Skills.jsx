@@ -24,13 +24,13 @@ const Skills = () => {
     }, [])
 
     return (
-        <div name='skills' className='mx-20 font-sans'>
-            <div className='flex flex-col justify-center max-w-[1080px] mx-auto'>
-                <div className='py-20'>
+        <div name='skills' className='mx-10 md:mx-20 font-sans'>
+            <div className='flex flex-col justify-center items-center max-w-[1080px] mx-auto'>
+                <div className='pb-10 mt-25'>
                     <p className='text-4xl font-bold inline border-b-4 border-[#C23B22]'>Skills</p>
                 </div>
 
-                <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center'>
+                <div className='w-full grid grid-cols-2 md:grid-cols-8 gap-4 text-center'>
                     <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
                         <div data-aos='zoom-in-up' data-aos-duration='1500'>
                             <img src={HtmlLogo} className='w-20 mx-auto' alt="html icon" />
@@ -111,7 +111,7 @@ const Skills = () => {
                     </div>
                     <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
                         <div data-aos='zoom-in-up' data-aos-duration='1500'>
-                            <img src={MssqlLogo} className='w-20 mx-auto' alt="nodejs icon" />
+                            <img src={MssqlLogo} className='w-19 mx-auto' alt="nodejs icon" />
                             <p className='my-4'>MS SQL</p>
                         </div>
                     </div>
