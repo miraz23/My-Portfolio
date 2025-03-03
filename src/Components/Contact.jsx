@@ -13,9 +13,9 @@ const Contact = () => {
           <input className="my-4 p-2 bg-gray-300 text-slate-700 rounded-lg" type="email" placeholder="Email" name="email"/>
           <textarea className="bg-gray-300 text-slate-700 p-2 rounded-lg" name="message" placeholder="Your Message" rows="5"></textarea>
 
-          <button className="text-white group border-2 px-4 py-3 mt-8 m-auto flex items-center hover:bg-[#C23B22] hover:border-[#C23B22] duration-300 font-sans">
+          <button className="text-white group border-2 px-4 py-3 mt-8 m-auto flex items-center hover:bg-[#C23B22] hover:border-[#C23B22] active:bg-[#C23B22] active:border-[#C23B22] duration-300 font-sans">
             Let's Connect
-            <span className="group-hover:ml-4 duration-300">
+            <span className="group-hover:ml-4 group-active:ml-4 duration-300">
               <HiArrowNarrowRight className="ml-4" />
             </span>
           </button>

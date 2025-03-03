@@ -18,9 +18,9 @@ const Banner = () => {
                 <p className='w-2/3 py-5 text-[#8892b0] font-sans'>
                     Aspiring Software Engineer, primarily focused on backend development with a solid understanding of frontend technologies.
                 </p>
-                <Link activeClass='active' to='work' smooth={true} duration={1000}>
-                    <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#C23B22] hover:border-[#C23B22] duration-300 font-sans'>View My Work
-                        <span className='group-hover:ml-6 duration-300'><HiArrowNarrowRight className='ml-3' /></span>
+                <Link activeClass='active' to='projects' smooth={true} duration={1000}>
+                    <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#C23B22] hover:border-[#C23B22] active:bg-[#C23B22] active:border-[#C23B22] duration-300 font-sans'>View My Work
+                        <span className='group-hover:ml-6 group-active:ml-6 duration-300'><HiArrowNarrowRight className='ml-3' /></span>
                     </button>
                 </Link>
             </div>

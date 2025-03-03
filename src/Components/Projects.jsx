@@ -22,7 +22,7 @@ const Projects = () => {
     <div name="projects" className="flex flex-col justify-center items-center mx-10 md:mx-20 font-sans">
       <div className="max-w-[1080px] mx-auto">
         <div className="pb-10 mt-25 text-center">
-          <p className='text-4xl font-bold inline border-b-4 border-[#C23B22]'>Featured Projects</p>
+          <p className='text-4xl font-bold inline border-b-4 border-[#C23B22] leading-13'>Featured Projects</p>
         </div>
         
         <div className="w-full h-full grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -31,7 +31,7 @@ const Projects = () => {
               <figure>
                 <img className="rounded-[8px]" src={project.imgUrl} alt="figure"/>
               </figure>
-              <div className="w-full h-full backdrop-filter backdrop-blur-sm bg-opacity-30 rounded-[8px] absolute top-0 left-0 z-[5] hidden group-hover:flex items-center justify-center">
+              <div className="w-full h-full backdrop-filter backdrop-blur-sm bg-opacity-30 rounded-[8px] absolute top-0 left-0 z-[5] hidden group-hover:flex group-active:flex items-center justify-center">
                 <button onClick={() => handleShowDetails(project.id)} className="text-white bg-[#0a192f] hover:bg-[#53565a] py-2 px-4 rounded-[8px] font-500 ease-in duration-200 cursor-pointer">
                   See details
                 </button>
