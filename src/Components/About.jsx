@@ -20,7 +20,7 @@ const About = () => {
                 <div className='w-[200px] h-[200px] md:w-[250px] md:h-[250px] flex justify-center order-1' data-aos='fade-up' data-aos-duration='1000'>
                     <img src="profile.png" alt="" className='rounded-full'/>
                 </div>
-                <div className='lg:w-1/3 text-center order-3' data-aos='fade-up' data-aos-duration='1000'>
+                <div className='lg:w-1/3 text-center lg:text-left order-3' data-aos='fade-up' data-aos-duration='1000'>
                     <p>I'm constantly seeking opportunities to expand my knowledge and stay up to date with industry trends. Collaborating with diverse teams and leveraging their strengths to drive success is something I truly enjoy. I would welcome the opportunity to connect and explore potential collaborations.</p>
                 </div>
             </div>

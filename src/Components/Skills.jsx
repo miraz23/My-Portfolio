@@ -1,22 +1,22 @@
 import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import HtmlLogo from '../asset/html.png';
-import CssLogo from '../asset/css.png';
-import BootstrapLogo from '../asset/bootstrap.png';
-import TailwindLogo from '../asset/tailwind.png';
-import PythonLogo from '../asset/python.png';
-import CppLogo from '../asset/cpp.png';
-import DjangoLogo from '../asset/django.png';
-import DrfLogo from '../asset/drf.png';
-import JavaScript from '../asset/javascript.png';
-import ReactLogo from '../asset/react.png';
-import NodeJsLogo from '../asset/node.png';
-import PostgresqlLogo from '../asset/postgresql.png';
-import MysqlLogo from '../asset/mysql.png';
-import MssqlLogo from '../asset/mssql.png';
-import GithubLogo from '../asset/github.png';
-import GitLogo from '../asset/git.png';
+import HtmlLogo from '../asset/Skills/html.png';
+import CssLogo from '../asset/Skills/css.png';
+import BootstrapLogo from '../asset/Skills/bootstrap.png';
+import TailwindLogo from '../asset/Skills/tailwind.png';
+import PythonLogo from '../asset/Skills/python.png';
+import CppLogo from '../asset/Skills/cpp.png';
+import DjangoLogo from '../asset/Skills/django.png';
+import DrfLogo from '../asset/Skills/drf.png';
+import JavaScript from '../asset/Skills/javascript.png';
+import ReactLogo from '../asset/Skills/react.png';
+import NodeJsLogo from '../asset/Skills/node.png';
+import PostgresqlLogo from '../asset/Skills/postgresql.png';
+import MysqlLogo from '../asset/Skills/mysql.png';
+import MssqlLogo from '../asset/Skills/mssql.png';
+import GithubLogo from '../asset/Skills/github.png';
+import GitLogo from '../asset/Skills/git.png';
 
 const Skills = () => {
     useEffect(() => {

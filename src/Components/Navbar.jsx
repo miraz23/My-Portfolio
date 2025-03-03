@@ -18,8 +18,8 @@ const Navbar = () => {
                 <li><Link className='hover:text-[#f3f3f3]' activeClass='active' to='home' smooth={true} duration={1000}>Home</Link></li>
                 <li><Link className='hover:text-[#f3f3f3]' activeClass='active' to='about' smooth={true} duration={1000}>About</Link></li>
                 <li><Link className='hover:text-[#f3f3f3]' activeClass='active' to='skills' smooth={true} duration={1000}>Skills</Link></li>
+                <li><Link className='hover:text-[#f3f3f3]' activeClass='active' to='projects' smooth={true} duration={1000}>Projects</Link></li>
                 <li><Link className='hover:text-[#f3f3f3]' activeClass='active' to='profiles' smooth={true} duration={1000}>Profiles</Link></li>
-                <li><Link className='hover:text-[#f3f3f3]' activeClass='active' to='work' smooth={true} duration={1000}>Projects</Link></li>
                 <li><Link className='hover:text-[#f3f3f3]' activeClass='active' to='contact' smooth={true} duration={1000}>Contact</Link></li>
             </ul>
 
@@ -33,8 +33,8 @@ const Navbar = () => {
                 <li className='py-6 text-3xl font-light'><Link onClick={handleNav} activeClass='active' to='home' smooth={true} duration={1000}>Home</Link></li>
                 <li className='py-6 text-3xl font-light'><Link onClick={handleNav} activeClass='active' to='about' smooth={true} duration={1000}>About</Link></li>
                 <li className='py-6 text-3xl font-light'><Link onClick={handleNav} activeClass='active' to='skills' smooth={true} duration={1000}>Skills</Link></li>
-                <li className='py-6 text-3xl font-light'><Link onClick={handleNav} activeClass='active' to='skills' smooth={true} duration={1000}>Profiles</Link></li>
                 <li className='py-6 text-3xl font-light'><Link onClick={handleNav} activeClass='active' to='work' smooth={true} duration={1000}>Projects</Link></li>
+                <li className='py-6 text-3xl font-light'><Link onClick={handleNav} activeClass='active' to='skills' smooth={true} duration={1000}>Profiles</Link></li>
                 <li className='py-6 text-3xl font-light'><Link onClick={handleNav} activeClass='active' to='contact' smooth={true} duration={1000}>Contact</Link></li>
             </ul>
 

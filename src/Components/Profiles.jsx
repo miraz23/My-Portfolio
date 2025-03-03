@@ -1,10 +1,9 @@
 import React, { useEffect } from 'react'
-import { Link } from "react-scroll"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import CodeforcesLogo from '../asset/codeforces.png'
-import LeetcodeLogo from '../asset/leetcode.png'
-import IeeeLogo from '../asset/ieee.png'
+import CodeforcesLogo from '../asset/Profiles/codeforces.png'
+import LeetcodeLogo from '../asset/Profiles/leetcode.png'
+import IeeeLogo from '../asset/Profiles/ieee.png'
 
 const Skills = () => {
     useEffect(() => {
@@ -23,7 +22,7 @@ const Skills = () => {
                         <a href="https://codeforces.com/profile/mohiul_islam">
                             <div data-aos='zoom-in-up' data-aos-duration='1500'>
                                 <img src={CodeforcesLogo} className='w-25 mx-auto' alt="html icon" />
-                                <p className='my-6'>Codeforces <br /> (450+ Solve)</p>
+                                <p className='my-6'>Codeforces <br /> (500+ Solve)</p>
                             </div>
                         </a>
                     </div>
