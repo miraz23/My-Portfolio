@@ -33,8 +33,8 @@ const Navbar = () => {
                 <li className='py-6 text-3xl font-light'><Link onClick={handleNav} activeClass='active' to='home' smooth={true} duration={1000}>Home</Link></li>
                 <li className='py-6 text-3xl font-light'><Link onClick={handleNav} activeClass='active' to='about' smooth={true} duration={1000}>About</Link></li>
                 <li className='py-6 text-3xl font-light'><Link onClick={handleNav} activeClass='active' to='skills' smooth={true} duration={1000}>Skills</Link></li>
-                <li className='py-6 text-3xl font-light'><Link onClick={handleNav} activeClass='active' to='work' smooth={true} duration={1000}>Projects</Link></li>
-                <li className='py-6 text-3xl font-light'><Link onClick={handleNav} activeClass='active' to='skills' smooth={true} duration={1000}>Profiles</Link></li>
+                <li className='py-6 text-3xl font-light'><Link onClick={handleNav} activeClass='active' to='projects' smooth={true} duration={1000}>Projects</Link></li>
+                <li className='py-6 text-3xl font-light'><Link onClick={handleNav} activeClass='active' to='profiles' smooth={true} duration={1000}>Profiles</Link></li>
                 <li className='py-6 text-3xl font-light'><Link onClick={handleNav} activeClass='active' to='contact' smooth={true} duration={1000}>Contact</Link></li>
                 <div className='flex md:hidden fixed flex-col top-[35%] left-0'>
                     <ul>

@@ -1,10 +1,9 @@
 import workifyImg from '../asset/Projects/workify.jpg';
 import hemosysImg from '../asset/Projects/hemosys.png';
 import gifsoverflowImg from '../asset/Projects/gifsoverflow.jpg';
-import alapImg from '../asset/Projects/alap.png';
 import staypointImg from '../asset/Projects/staypoint.png';
 import wearvaultImg from '../asset/Projects/wearvault.png';
-import growthLabImg from '../asset/Projects/growthlab.png';
+import growthlabImg from '../asset/Projects/growthlab.png';
 
 const ProjectData = [
     {
@@ -25,7 +24,7 @@ const ProjectData = [
     },
     {
         id: '03',
-        imgUrl: growthLabImg,
+        imgUrl: growthlabImg,
         title: 'Growth Lab - Educational-Platform',
         description: 'Growth-Lab is a platform designed to help users develop and refine their skills through structured learning resources.',
         tech: ["Dango Rest Framework", "Tailwind css", "Vercel", "Render"],
