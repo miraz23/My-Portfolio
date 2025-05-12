@@ -4,6 +4,7 @@ import gifsoverflowImg from '../asset/Projects/gifsoverflow.jpg';
 import alapImg from '../asset/Projects/alap.png';
 import staypointImg from '../asset/Projects/staypoint.png';
 import wearvaultImg from '../asset/Projects/wearvault.png';
+import growthLabImg from '../asset/Projects/growthlab.png';
 
 const ProjectData = [
     {
@@ -24,11 +25,11 @@ const ProjectData = [
     },
     {
         id: '03',
-        imgUrl: alapImg,
-        title: 'Alap - Real-time Chat Application',
-        description: 'Alap is a real-time chat application built with React, Node.js, PostgreSQL, and WebSockets, featuring secure authentication, instant messaging, and Dockerized deployment.',
-        tech: ["React", "Tailwind css", "Nodejs", "PostgreSQL", "Docker"],
-        siteUrl: 'https://github.com/miraz23/Alap_Real-time-chat-application',
+        imgUrl: growthLabImg,
+        title: 'Growth Lab - Educational-Platform',
+        description: 'Growth-Lab is a platform designed to help users develop and refine their skills through structured learning resources.',
+        tech: ["Dango Rest Framework", "Tailwind css", "Vercel", "Render"],
+        siteUrl: 'https://growth-lab-bd.vercel.app/',
     },
     {
         id: '04',
@@ -36,15 +37,15 @@ const ProjectData = [
         title: 'Hemosys - Advance Blood Donation System',
         description: 'Hemosys is a comprehensive solution designed to streamline and enhance blood donation processes.',
         tech: ["Django", "PostgreSQL", "AWS S3", "Onrender"],
-        siteUrl: 'https://github.com/miraz23/Hemosys_Advance-Blood-Donation-System',
+        siteUrl: 'http://hemosys.onrender.com/',
     },
     {
         id: '05',
         imgUrl: staypointImg,
         title: 'Stay Point - Hotel Booking Platform',
         description: 'Stay Point is an advanced hotel booking platform that offers a seamless experience for users to book hotels while empowering landlords to list their properties effortlessly.',
-        tech: ["Dango Rest Framework", "PostgreSQL", "React", "Tailwind css"],
-        siteUrl: 'https://github.com/miraz23/Stay-Point_Hotel-Booking-Platform',
+        tech: ["Dango Rest Framework", "React", "Redux", "Axios", "Tailwind css", "Vercel", "Render"],
+        siteUrl: 'https://stay-point.vercel.app/',
     },
     {
         id: '06',
