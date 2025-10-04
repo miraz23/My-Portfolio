@@ -17,6 +17,14 @@ import MysqlLogo from '../asset/Skills/mysql.png';
 import MssqlLogo from '../asset/Skills/mssql.png';
 import GithubLogo from '../asset/Skills/github.png';
 import GitLogo from '../asset/Skills/git.png';
+import ExpressJsLogo from '../asset/Skills/expressjs.png';
+import MongoDBLogo from '../asset/Skills/mongodb.png';
+import AwsLogo from '../asset/Skills/aws.png';
+import DockerLogo from '../asset/Skills/docker.png';
+import FirebaseLogo from '../asset/Skills/firebase.png';
+import BashLogo from '../asset/Skills/bash.png';
+import AnsibleLogo from '../asset/Skills/ansible.png';
+import WordPressLogo from '../asset/Skills/wordpress.png';
 
 const Skills = () => {
     useEffect(() => {
@@ -31,6 +39,78 @@ const Skills = () => {
                 </div>
 
                 <div className='w-full grid grid-cols-2 md:grid-cols-8 gap-4 text-center'>
+                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
+                        <div data-aos='zoom-in-up' data-aos-duration='1500'>
+                            <img src={JavaScript} className='w-20 mx-auto' alt="javascript icon" />
+                            <p className='my-4'>JavaScript</p>
+                        </div>
+                    </div>
+                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
+                        <div data-aos='zoom-in-up' data-aos-duration='1500'>
+                            <img src={ReactLogo} className='w-20 mx-auto' alt="react icon" />
+                            <p className='my-4'>ReactJs</p>
+                        </div>
+                    </div>
+                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
+                        <div data-aos='zoom-in-up' data-aos-duration='1500'>
+                            <img src={NodeJsLogo} className='w-20 mx-auto' alt="nodejs icon" />
+                            <p className='my-4'>Nodejs</p>
+                        </div>
+                    </div>
+                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
+                        <div data-aos='zoom-in-up' data-aos-duration='1500'>
+                            <img src={ExpressJsLogo} className='w-20 mx-auto' alt="nodejs icon" />
+                            <p className='my-4'>Expressjs</p>
+                        </div>
+                    </div>
+                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
+                        <div data-aos='zoom-in-up' data-aos-duration='1500'>
+                            <img src={MongoDBLogo} className='w-20 mx-auto' alt="nodejs icon" />
+                            <p className='my-4'>MongoDB</p>
+                        </div>
+                    </div>
+                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
+                        <div data-aos='zoom-in-up' data-aos-duration='1500'>
+                            <img src={PythonLogo} className='w-20 mx-auto' alt="tailwind icon" />
+                            <p className='my-4'>Python</p>
+                        </div>
+                    </div>
+                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
+                        <div data-aos='zoom-in-up' data-aos-duration='1500'>
+                            <img src={DjangoLogo} className='w-20 mx-auto' alt="tailwind icon" />
+                            <p className='my-4'>Django</p>
+                        </div>
+                    </div>
+                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
+                        <div data-aos='zoom-in-up' data-aos-duration='1500'>
+                            <img src={DrfLogo} className='w-20 mx-auto' alt="tailwind icon" />
+                            <p className='my-4'>DRF</p>
+                        </div>
+                    </div>
+                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
+                        <div data-aos='zoom-in-up' data-aos-duration='1500'>
+                            <img src={PostgresqlLogo} className='w-20 mx-auto' alt="nodejs icon" />
+                            <p className='my-4'>PostgreSQL</p>
+                        </div>
+                    </div>
+                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
+                        <div data-aos='zoom-in-up' data-aos-duration='1500'>
+                            <img src={AwsLogo} className='w-20 mx-auto mt-6 mb-6' alt="github icon" />
+                            <p className='my-4'>AWS</p>
+                        </div>
+                    </div>
+                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
+                        <div data-aos='zoom-in-up' data-aos-duration='1500'>
+                            <img src={DockerLogo} className='w-20 mx-auto' alt="github icon" />
+                            <p className='my-4'>Docker</p>
+                        </div>
+                    </div>
+                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
+                        <div data-aos='zoom-in-up' data-aos-duration='1500'>
+                            <img src={FirebaseLogo} className='w-20 mx-auto' alt="github icon" />
+                            <p className='my-4'>Firebase</p>
+                        </div>
+                    </div>
                     <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
                         <div data-aos='zoom-in-up' data-aos-duration='1500'>
                             <img src={HtmlLogo} className='w-20 mx-auto' alt="html icon" />
@@ -63,48 +143,6 @@ const Skills = () => {
                     </div>
                     <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
                         <div data-aos='zoom-in-up' data-aos-duration='1500'>
-                            <img src={PythonLogo} className='w-20 mx-auto' alt="tailwind icon" />
-                            <p className='my-4'>Python</p>
-                        </div>
-                    </div>
-                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
-                        <div data-aos='zoom-in-up' data-aos-duration='1500'>
-                            <img src={DjangoLogo} className='w-20 mx-auto' alt="tailwind icon" />
-                            <p className='my-4'>Django</p>
-                        </div>
-                    </div>
-                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
-                        <div data-aos='zoom-in-up' data-aos-duration='1500'>
-                            <img src={DrfLogo} className='w-20 mx-auto' alt="tailwind icon" />
-                            <p className='my-4'>DRF</p>
-                        </div>
-                    </div>
-                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
-                        <div data-aos='zoom-in-up' data-aos-duration='1500'>
-                            <img src={JavaScript} className='w-20 mx-auto' alt="javascript icon" />
-                            <p className='my-4'>JavaScript</p>
-                        </div>
-                    </div>
-                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
-                        <div data-aos='zoom-in-up' data-aos-duration='1500'>
-                            <img src={ReactLogo} className='w-20 mx-auto' alt="react icon" />
-                            <p className='my-4'>ReactJs</p>
-                        </div>
-                    </div>
-                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
-                        <div data-aos='zoom-in-up' data-aos-duration='1500'>
-                            <img src={NodeJsLogo} className='w-20 mx-auto' alt="nodejs icon" />
-                            <p className='my-4'>Nodejs</p>
-                        </div>
-                    </div>
-                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
-                        <div data-aos='zoom-in-up' data-aos-duration='1500'>
-                            <img src={PostgresqlLogo} className='w-20 mx-auto' alt="nodejs icon" />
-                            <p className='my-4'>PostgreSQL</p>
-                        </div>
-                    </div>
-                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
-                        <div data-aos='zoom-in-up' data-aos-duration='1500'>
                             <img src={MysqlLogo} className='w-20 mx-auto' alt="nodejs icon" />
                             <p className='my-4'>MySQL </p>
                         </div>
@@ -117,16 +155,36 @@ const Skills = () => {
                     </div>
                     <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
                         <div data-aos='zoom-in-up' data-aos-duration='1500'>
+                            <img src={GitLogo} className='w-20 mx-auto' alt="firebase icon" />
+                            <p className='my-4'>Git</p>
+                        </div>
+                    </div>
+                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
+                        <div data-aos='zoom-in-up' data-aos-duration='1500'>
                             <img src={GithubLogo} className='w-20 mx-auto' alt="github icon" />
                             <p className='my-4'>Github</p>
                         </div>
                     </div>
                     <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
                         <div data-aos='zoom-in-up' data-aos-duration='1500'>
-                            <img src={GitLogo} className='w-20 mx-auto' alt="firebase icon" />
-                            <p className='my-4'>Git</p>
+                            <img src={BashLogo} className='w-20 mx-auto' alt="github icon" />
+                            <p className='my-4'>Bash</p>
                         </div>
                     </div>
+                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
+                        <div data-aos='zoom-in-up' data-aos-duration='1500'>
+                            <img src={AnsibleLogo} className='w-20 mx-auto' alt="github icon" />
+                            <p className='my-4'>Ansible</p>
+                        </div>
+                    </div>
+                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
+                        <div data-aos='zoom-in-up' data-aos-duration='1500'>
+                            <img src={WordPressLogo} className='w-20 mx-auto' alt="github icon" />
+                            <p className='my-4'>WordPress</p>
+                        </div>
+                    </div>
+                    
+                    
                 </div>
             </div>
         </div>
