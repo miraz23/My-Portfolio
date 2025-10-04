@@ -21,7 +21,7 @@ const About = () => {
                     <img src="profile.png" alt="" className='rounded-full'/>
                 </div>
                 <div className='lg:w-1/3 text-center lg:text-left order-3' data-aos='fade-up' data-aos-duration='1000'>
-                    <p>I'm constantly seeking opportunities to expand my knowledge and stay up to date with industry trends. Collaborating with diverse teams and leveraging their strengths to drive success is something I truly enjoy. I would welcome the opportunity to connect and explore potential collaborations.</p>
+                    <p>Full-Stack Developer with 1.5 years of hands-on experience in building scalable web applications using MERN, Django, PostgreSQL and AWS. Skilled in end-to-end software development, RESTful API design, firebase and custom authentication, integrating payment gateways and cloud services. Strong foundation in agile/scrum methodologies, project management with Jira and collaborative development environments.</p>
                 </div>
             </div>
         </div>
