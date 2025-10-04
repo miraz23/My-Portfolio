@@ -38,7 +38,7 @@ const Skills = () => {
                         <a href="https://ieee-collabratec.ieee.org/app/p/mohiul-islam-miraz">
                             <div data-aos='zoom-in-up' data-aos-duration='1500'>
                                 <img src={IeeeLogo} className='w-45 mx-auto' alt="css icon" />
-                                <p className='my-6'>IEEE CS<br />(Public Relations Executive)</p>
+                                <p className='my-6'>IEEE IIUC SBC<br />(Webmaster)</p>
                             </div>
                         </a>
                     </div>

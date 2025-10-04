@@ -29,12 +29,14 @@ const ProjectDetails = ({ activeId, setShowDetails }) => {
                     {
                         project.tech.map((item, index) => (
                             <span className='bg-gray-200 py-1 px-2 rounded-[5px] text-[12px] sm:text-[14px] text-[#0a192f]' key={index}>{item}</span>
-
                         ))
                     }
                 </div>
                 <a target='_blank' rel='noreferrer' href={project.siteUrl}>
                     <button className='text-white bg-[#0a192f] hover:bg-[#53565a] py-2 px-4 my-4 rounded-[8px] text-[12px] sm:text-[14px] ease-in duration-200'>Live Site</button>
+                </a>
+                <a target='_blank' rel='noreferrer' href={project.repoUrl}>
+                    <button className='text-white ml-2 bg-[#0a192f] hover:bg-[#53565a] py-2 px-4 my-4 rounded-[8px] text-[12px] sm:text-[14px] ease-in duration-200'>Github</button>
                 </a>
 
                 <button onClick={() => setShowDetails(false)} className='w-[1.8rem] h-[1.8rem] bg-white absolute top-[1.7rem] right-[1.7rem] text-[20px] flex items-center justify-center rounded-[3px] leading-0 cursor-pointer hover:text-[#0a192f] ease-in duration-300'>
